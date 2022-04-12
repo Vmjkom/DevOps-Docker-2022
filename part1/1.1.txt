@@ -1,0 +1,9 @@
+Script started on 2021-12-06 07:12:57+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="237" LINES="63"]
+]0;ville@DESKTOP-DI9N5HO: ~[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~[00m$ docker -ps[K[K[Kps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                      PORTS     NAMES
+544c3a58bb58   nginx     "/docker-entrypoint.…"   43 seconds ago   Exited (0) 31 seconds ago             agitated_dijkstra
+b24d0b6c5348   nginx     "/docker-entrypoint.…"   45 seconds ago   Exited (0) 27 seconds ago             brave_pascal
+f1923d46ed82   nginx     "/docker-entrypoint.…"   51 seconds ago   Up 49 seconds               80/tcp    friendly_pike
+]0;ville@DESKTOP-DI9N5HO: ~[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~[00m$ exit
+
+Script done on 2021-12-06 07:13:09+02:00 [COMMAND_EXIT_CODE="0"]

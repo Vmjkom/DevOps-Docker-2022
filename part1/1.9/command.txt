@@ -1,0 +1,24 @@
+Script started on 2022-04-09 16:49:58+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="209" LINES="52"]
+]0;ville@DESKTOP-DI9N5HO: ~/DevOps_Docker/part1/1.9[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~/DevOps_Docker/part1/1.9[00m$ exitrt[Kexitr[2Plsexirt[Kdocker run -v[K[K.v[K[K-v´´[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+command.txt  text.log
+]0;ville@DESKTOP-DI9N5HO: ~/DevOps_Docker/part1/1.9[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~/DevOps_Docker/part1/1.9[00m$ lsexit[2Pls[Kdoick[K[K[Kcker run .v [K[K[K-v "[K"$(pwd)/text.log:/usr/src/app/text.log" 
+curler-v2                                 devopsdockeruh/simple-web-service:latest  ubuntu                                    youtube-dl:latest
+curler-v2:latest                          python                                    ubuntu:18.04                              
+devopsdockeruh/simple-web-service         python:3.8                                youtube-dl                                
+]0;ville@DESKTOP-DI9N5HO: ~/DevOps_Docker/part1/1.9[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~/DevOps_Docker/part1/1.9[00m$ docker run -v "$(pwd)/text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service:latest 
+Starting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C]0;ville@DESKTOP-DI9N5HO: ~/DevOps_Docker/part1/1.9[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~/DevOps_Docker/part1/1.9[00m$ cat cin[K[Kommand.txt [K[K[K[K[K[K[K[K[K[K[K[Ktesd[K[Kxt[Kt.log 
+2022-04-09 13:51:13 +0000 UTC
+2022-04-09 13:51:15 +0000 UTC
+2022-04-09 13:51:17 +0000 UTC
+2022-04-09 13:51:19 +0000 UTC
+2022-04-09 13:51:21 +0000 UTC
+]0;ville@DESKTOP-DI9N5HO: ~/DevOps_Docker/part1/1.9[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~/DevOps_Docker/part1/1.9[00m$ exit
+exit
+
+Script done on 2022-04-09 16:51:39+03:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,10 @@
+Script started on 2022-03-28 12:44:52+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="152" LINES="37"]
+]0;ville@DESKTOP-DI9N5HO: ~/DevOps_Docker/part1[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~/DevOps_Docker/part1[00m$ docker[K[K[K[K[K[Kdocker run -it devopsdockeruh/pull_exercise
+[1G[0JGive me the password: [23Gbasics
+You found the correct password. Secret message is:
+"This is the secret message"
+
+]0;ville@DESKTOP-DI9N5HO: ~/DevOps_Docker/part1[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~/DevOps_Docker/part1[00m$ exit
+exit
+
+Script done on 2022-03-28 12:45:06+03:00 [COMMAND_EXIT_CODE="0"]

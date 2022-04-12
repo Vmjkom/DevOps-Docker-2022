@@ -1,0 +1,28 @@
+Script started on 2022-03-28 12:20:55+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;ville@DESKTOP-DI9N5HO: ~/DevOps_Docker/part1[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~/DevOps_Docker/part1[00m$ docker image ls
+REPOSITORY                          TAG       IMAGE ID       CREATED         SIZE
+ubuntu                              latest    ff0fea8310f3   10 days ago     72.8MB
+ubuntu                              18.04     b67d6ac264e4   10 days ago     63.2MB
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   12 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   12 months ago   15.7MB
+]0;ville@DESKTOP-DI9N5HO: ~/DevOps_Docker/part1[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~/DevOps_Docker/part1[00m$ docker 3e[K[Kexec -it alpine sh
+/usr/src/app # [6n/usr/src/app # [Jtail -f [J-[J -(/[J[J[J./te/usr/src/app # tail -f ./text.log [J
+2022-03-28 09:21:06 +0000 UTC
+2022-03-28 09:21:08 +0000 UTC
+2022-03-28 09:21:10 +0000 UTC
+2022-03-28 09:21:12 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-03-28 09:21:14 +0000 UTC
+2022-03-28 09:21:16 +0000 UTC
+2022-03-28 09:21:18 +0000 UTC
+2022-03-28 09:21:20 +0000 UTC
+2022-03-28 09:21:22 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-03-28 09:21:24 +0000 UTC
+2022-03-28 09:21:26 +0000 UTC
+^C
+/usr/src/app # [6nexit
+]0;ville@DESKTOP-DI9N5HO: ~/DevOps_Docker/part1[01;32mville@DESKTOP-DI9N5HO[00m:[01;34m~/DevOps_Docker/part1[00m$ exit
+exit
+
+Script done on 2022-03-28 12:21:29+03:00 [COMMAND_EXIT_CODE="130"]
