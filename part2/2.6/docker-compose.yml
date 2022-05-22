@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+  front-end:
+    build: 
+      context: ../../material-applications//example-frontend
+      dockerfile: Dockerfile_front
+    ports:
+      - 5000:5000
+    container_name: front-end-container
+  back-end:
+    build: 
+      context: ../../material-applications/example-backend
+      dockerfile: Dockerfile_back
+    environment:
+      - REDIS_HOST=redis
+      - POSTGRES_HOST=db
+      - POSTGRES_PASSWORD=example
+    ports:
+      - 8080:8080
+    depends_on:
+      - db
+    container_name: back-end-container
+  redis:
+    image: redis
+    command: redis-server
+    container_name: redis-server 
+  db:
+    image: postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_PASSWORD=example
+    volumes:
+      - database:/var/lib/postgres/data
+    container_name: postgres-db
+
+volumes:
+  database:
