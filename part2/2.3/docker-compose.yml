@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  front-end:
+    build: ./front/example-frontend
+    ports:
+      - 5000:5000
+    container_name: front-end-container
+  back-end:
+    build: ./back/example-backend
+    ports:
+      - 8080:8080
+    container_name: back-end-container
+    
+  
+  
+    
